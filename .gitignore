@@ -1,0 +1,12 @@
+node_modules
+TEST-App.xml
+npm-debug.log
+
+# Build artifacts
+build/main.css
+build/main.js
+build/specs.js
+build/vendors.js
+
+.DS_Store
+
