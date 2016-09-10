@@ -9,6 +9,14 @@ User.prototype.fullName = function() {
     return this.firstName + ' ' + this.lastName;
 };
 
+User.prototype.emailAddress = function() {
+    return this.email;
+};
+
+User.prototype.phoneNo = function() {
+    return this.phone;
+};
+
 User.prototype.equals = function(compare) {
     return compare.firstName === this.firstName &&
     compare.lastName === this.lastName &&
