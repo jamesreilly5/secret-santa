@@ -31,7 +31,9 @@ body .hero .hero-panel {
 }
 @media (max-width: 768px) {
   body .hero {
-    background-position: -200px -220px;
+    background-position: -476px -17px;
+    height: 350px;
+    background-size: 1038px;
   }
   body .hero .hero-panel {
     width: 90%;
@@ -68,13 +70,20 @@ body .santa {
 body .santa-container {
   background-color: #ffd970;
 }
+@media (max-width: 768px) {
+  .gift-container {
+    -webkit-border-radius: 0px 0px 0px 0px;
+    border-top: none;
+    border-radius: 0px 0px 0px 0px;
+  }
+}
 
-.user-info {
+.pair .user-info {
   padding: 1em;
   line-height: 2em;
   color: #697684;
 }
-.user-block {
+.pair .user-block {
   border: 1px solid #e3e3e3;
   border-radius: 5px 5px 5px 5px;
   -moz-border-radius: 5px 5px 5px 5px;
@@ -84,4 +93,19 @@ body .santa-container {
   box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.5);
   margin-bottom: 1em;
   background-color: #ffffff;
+}
+@media (max-width: 768px) {
+  .pair {
+    margin-bottom: 2em;
+  }
+  .pair .user-block {
+    margin-bottom: 0;
+    border-bottom: none;
+    -webkit-border-radius: 0px 0px 0px 0px;
+  }
+  .pair .user-block:nth-child(2) {
+    background: #CCC;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    margin-bottom: 3em;
+  }
 }

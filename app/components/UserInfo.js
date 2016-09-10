@@ -3,7 +3,7 @@ var React = require('react');
 var UserInfo = React.createClass({
 	render: function() {
 		return (
-			<div className='row'>
+			<div className='row pair'>
                 <div className='col-md-5'>
                     <div className='user-block'>
                         <div className='santa-container text-center'>
