@@ -34,12 +34,6 @@ module.exports = {
         var pairs = [];
 
         for(var i=0; i < keys.length; i++) {
-            // var pairIndex = getRandomIndex(keys.length, keys[i]);
-            // pairs.push([keys[i], keyPool[pairIndex]]);
-            // keyPool.splice(pairIndex, 1);
-            // while(keyPool[0] === keys[i]) {
-            //     keyPool = shuffle(keyPool);
-            // }
             pairs.push([keys[i], keyPool[i]]);
         }
         return pairs;
