@@ -1,65 +1,56 @@
-[
-    {
-        "id": "7302a5c9-f12e-45e7-a376-a9f05e4b88fc",
+{
+    "7302a5c9-f12e-45e7-a376-a9f05e4b88fc": {
         "firstName": "Jennifer",
         "lastName": "Madden",
         "email": "jmadser@somemail.com",
         "phone": "+353823452345"
     },
-    {
-        "id": "f45e4343-6dfb-4085-b249-975e8d707b2e",
+    "f45e4343-6dfb-4085-b249-975e8d707b2e": {
         "firstName": "Bob",
         "lastName": "Bertler",
         "email": "bb6699@nowhere.com",
         "phone": "+353880456445"
     },
-    {
-        "id": "39bb60c9-cc52-4edd-a213-a8176f2d4d1c",
+    "39bb60c9-cc52-4edd-a213-a8176f2d4d1c": {
         "firstName": "Lisa",
         "lastName": "Masterson",
         "email": "lisam76@hotmail.com",
         "phone": "+353823423423"
     },
-    {
-        "id": "2aaa1a3d-d56c-45a7-b1f5-c6d57626ba35",
+    "2aaa1a3d-d56c-45a7-b1f5-c6d57626ba35": {
         "firstName": "Nelson",
         "lastName": "",
         "email": "nelsonator16@themail.com",
         "phone": "+353856456456"
     },
-    {
-        "id": "51944eee-7eb4-4ecb-99e2-981d05f85e1e",
+    "51944eee-7eb4-4ecb-99e2-981d05f85e1e": {
         "firstName": "Fred",
         "lastName": "Walsh",
         "email": "fred.walsh82@gmail.com",
         "phone": "+353878234567"
     },
-    {
-        "id": "62d2c77e-6297-43b7-864c-042ca1ee715d",
+    "62d2c77e-6297-43b7-864c-042ca1ee715d": {
         "firstName": "Geoff",
         "lastName": "Lanegan",
         "email": "glanegan@laneganers.ie",
         "phone": "+353845645645"
     },
-    {
-        "id": "f26c5535-e9fa-4a44-aee7-d0e5d9219e8b",
+    "f26c5535-e9fa-4a44-aee7-d0e5d9219e8b": {
         "firstName": "Brian",
         "lastName": "Sullivan",
         "email": "bsull@hmail.co.uk",
         "phone": "+353823456776"
     },
-    {
-        "id": "587bf323-5b7b-43ca-a88f-a1e9c884c7cc",
+    "587bf323-5b7b-43ca-a88f-a1e9c884c7cc": {
         "firstName": "Lisa",
         "lastName": "Desmond",
         "email": "ldesmond1@shhmail.com",
         "phone": "+353834543543"
     },
-    {
-        "id": "cd3515f2-9b52-42ea-9f3c-e6daaf65249a",
+    "cd3515f2-9b52-42ea-9f3c-e6daaf65249a": {
         "firstName": "Derek",
         "lastName": "Proctor",
         "email": "theproctor@zmail.ie",
         "phone": "+353878634234"
     }
-]
+}

@@ -1,6 +1,7 @@
+var User = require('./models/User');
+
 var parseUser = function(json) {
     return {
-        id: json.guid,
         firstName: json.name.first,
         lastName: json.name.last,
         email: json.email,
@@ -10,11 +11,12 @@ var parseUser = function(json) {
 
 module.exports = {
     parse: function(usersJson) {
-        users = [];
+        users = {};
         if(!usersJson || !usersJson.users) { return users }
 
         for(var i=0; i < usersJson.users.length; i++) {
-            users.push(parseUser(usersJson.users[i]));
+            var userData = usersJson.users[i];
+            users[userData.guid] = new User(parseUser(userData));
         }
         return users;
     }
