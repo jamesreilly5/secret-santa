@@ -6,6 +6,9 @@ var User = function(userData) {
 };
 
 User.prototype.fullName = function() {
+    if(!this.lastName) {
+        return this.firstName;
+    }
     return this.firstName + ' ' + this.lastName;
 };
 
