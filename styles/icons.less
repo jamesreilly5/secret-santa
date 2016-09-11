@@ -1,6 +1,5 @@
 body {
     .santa.circle {
-        margin-bottom: -5em;
         border-radius: 50%;
         background-color: white;
         width: 150px;
@@ -10,6 +9,27 @@ body {
         &.santa-large {
             background-size: 150px;
         }
+    }
+
+    .equals {
+        &.circle {
+            border-radius: 50%;
+            background-color: white;
+            width: 90px;
+            height: 90px;
+            margin: auto;
+
+            -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.5);
+            -moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.5);
+            box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.5);
+
+            h1 {
+                font-size: 4em;
+                margin-top: 1em;
+                padding-top: 0.15em;
+            }
+        }
+        color: #697684;
     }
 
     .gift-container, .santa-container {
@@ -49,6 +69,10 @@ body {
 }
 
 @media (max-width: 768px) {
+    .equals-container {
+        display: none;
+    }
+
     .gift-container {
         -webkit-border-radius: 0px 0px 0px 0px;
         border-top: none;

@@ -31,14 +31,16 @@ var SecretSantaList = React.createClass({
             <div className='container'>
             {
                 matches.map(function(keyPair, i) {
+                    var giftGiver = secretSantaList[keyPair[0]],
+                        giftReceiver = secretSantaList[keyPair[1]];
+
                     return <UserInfo key={i}
-                        secretSantaName={secretSantaList[keyPair[0]].fullName()}
-                        secretSantaEmail={secretSantaList[keyPair[0]].emailAddress()}
-                        secretSantaPhone={secretSantaList[keyPair[0]].phoneNo()}
-                        giftReceiverName={secretSantaList[keyPair[1]].fullName()}
-                        giftReceiverEmail={secretSantaList[keyPair[1]].emailAddress()}
-                        giftReceiverPhone={secretSantaList[keyPair[1]].phoneNo()}
-                    />
+                        secretSantaName={giftGiver.fullName()}
+                        secretSantaEmail={giftGiver.emailAddress()}
+                        secretSantaPhone={giftGiver.phoneNo()}
+                        giftReceiverName={giftReceiver.fullName()}
+                        giftReceiverEmail={giftReceiver.emailAddress()}
+                        giftReceiverPhone={giftReceiver.phoneNo()} />
                 })
             }
             </div>

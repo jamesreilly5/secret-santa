@@ -23,7 +23,6 @@ body .hero {
 body .hero .title {
   width: 45%;
   margin: auto;
-  border-radius: 1px;
   padding: 0.2em;
   background-color: #464646;
   background: rgba(70, 70, 70, 0.3);
@@ -52,7 +51,6 @@ body .hero .title {
 }
 
 body .santa.circle {
-  margin-bottom: -5em;
   border-radius: 50%;
   background-color: white;
   width: 150px;
@@ -61,6 +59,24 @@ body .santa.circle {
 }
 body .santa.circle.santa-large {
   background-size: 150px;
+}
+body .equals {
+  color: #697684;
+}
+body .equals.circle {
+  border-radius: 50%;
+  background-color: white;
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.5);
+}
+body .equals.circle h1 {
+  font-size: 4em;
+  margin-top: 1em;
+  padding-top: 0.15em;
 }
 body .gift-container,
 body .santa-container {
@@ -93,6 +109,9 @@ body .santa-container {
   background-color: #ffd970;
 }
 @media (max-width: 768px) {
+  .equals-container {
+    display: none;
+  }
   .gift-container {
     -webkit-border-radius: 0px 0px 0px 0px;
     border-top: none;

@@ -4,7 +4,7 @@ var UserInfo = React.createClass({
 	render: function() {
 		return (
 			<div className='row pair'>
-                <div className='col-md-5'>
+                <div className='col-sm-5'>
                     <div className='user-block'>
                         <div className='santa-container text-center'>
                             <i className="santa"></i>
@@ -16,7 +16,10 @@ var UserInfo = React.createClass({
                         </div>
                     </div>
                 </div>
-                <div className='col-md-5 col-md-offset-2'>
+                <div className='col-sm-2 equals-container'>
+                    <div className='text-center equals circle'><h1>=</h1></div>
+                </div>
+                <div className='col-sm-5'>
                     <div className='user-block'>
                         <div className='gift-container text-center'>
                             <i className="gift"></i>
