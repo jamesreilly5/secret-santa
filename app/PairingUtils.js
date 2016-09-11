@@ -10,7 +10,7 @@ var shuffle = function(array) {
     return array;
 }
 
-function rotate(arr){
+var rotate = function(arr) {
     arr.push(arr.shift());
     return arr;
 }
