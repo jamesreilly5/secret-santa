@@ -3,21 +3,33 @@ body {
         background-image: url("hero.jpg");
         background-color: #cccccc;
         background-repeat: no-repeat;
-        text-shadow: 0px 0px 15px rgb(11, 9, 8);
         border-bottom: 1px solid #e3e3e3;
         height: 450px;
         margin-bottom: 1em;
         background-position: -1px -75px;
         background-size: 1437px;
+        color: #3a3a3d;
 
-        .hero-panel {
-            width: 70%;
+        .title {
+            width: 45%;
             margin: auto;
+            border-radius: 25px / 25px;
+            padding: 0.2em;
+
             background-color: #464646;
             background: rgba(70,70,70,0.3);
-            border: 1px solid rgba(255,255,255,0.3);
-            border-radius: 7px / 7px;
-            padding: 3em;
+
+            color: white;
+            border: 0.75em solid white;
+            text-shadow: 2px 2px 8px #464646;
+
+            border-radius: 10px 10px 10px 10px;
+            -moz-border-radius: 10px 10px 10px 10px;
+            -webkit-border-radius: 10px 10px 10px 10px;
+
+            -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.5);
+            -moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.5);
+            box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.5);
         }
     }
 }
@@ -25,9 +37,14 @@ body {
 @media (max-width: 768px) {
     body {
         .hero {
-            background-position: -476px -17px;
+
+            background-position: -322px -17px;
             height: 350px;
-            background-size: 1038px;
+            background-size: 1064px;
+
+            .title {
+                width: 75%;
+            }
 
             .hero-panel {
                 width: 90%;

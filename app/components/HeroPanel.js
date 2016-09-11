@@ -4,8 +4,11 @@ var HeroPanel = React.createClass({
 	render: function() {
 		return (
             <section className='hero jumbotron'>
-                <div>
-                    <h1 className='text-center'>Secret Santa 2016</h1>
+                <div className='text-center'>
+                    <i className="santa text-center circle santa-large"></i>
+                    <div className='title'>
+                        <h1 className='text-center'>Secret Santa</h1>
+                    </div>
                 </div>
             </section>
 		)
